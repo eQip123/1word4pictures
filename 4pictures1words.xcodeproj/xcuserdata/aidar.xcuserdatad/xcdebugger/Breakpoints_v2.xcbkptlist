@@ -115,188 +115,51 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4702E388-064B-437F-92A9-D91537D82109"
+            uuid = "5FFA8098-240C-4444-BE28-C354F2D689E3"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "4pictures1words/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "levels"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "4702E388-064B-437F-92A9-D91537D82109 - 74369d2f789afff6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "_pictures1words.ViewController.levels.getter : Swift.Array&lt;_pictures1words.ModelLevel&gt;"
-                  moduleName = "4pictures1words"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aidar/Desktop/Storyboard/4pictures1words/4pictures1words/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "88">
-               </Location>
-               <Location
-                  uuid = "4702E388-064B-437F-92A9-D91537D82109 - 9f522c11b128a3c2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "_pictures1words.ViewController.levels.setter : Swift.Array&lt;_pictures1words.ModelLevel&gt;"
-                  moduleName = "4pictures1words"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aidar/Desktop/Storyboard/4pictures1words/4pictures1words/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "112">
-               </Location>
-               <Location
-                  uuid = "4702E388-064B-437F-92A9-D91537D82109 - 57999576180a72f3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "_pictures1words.ViewController.levels.modify : Swift.Array&lt;_pictures1words.ModelLevel&gt;"
-                  moduleName = "4pictures1words"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aidar/Desktop/Storyboard/4pictures1words/4pictures1words/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "0">
-               </Location>
-               <Location
-                  uuid = "4702E388-064B-437F-92A9-D91537D82109 - f67a07dded8187bc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "_pictures1words.ViewController.levels.modify : Swift.Array&lt;_pictures1words.ModelLevel&gt; with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "4pictures1words"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aidar/Desktop/Storyboard/4pictures1words/4pictures1words/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  uuid = "4702E388-064B-437F-92A9-D91537D82109 - 669f461057c7f3b1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "_pictures1words.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; _pictures1words.ViewController"
-                  moduleName = "4pictures1words"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aidar/Desktop/Storyboard/4pictures1words/4pictures1words/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "432">
-               </Location>
-               <Location
-                  uuid = "4702E388-064B-437F-92A9-D91537D82109 - 4c260709d4df9db6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "_pictures1words.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;_pictures1words.ViewController&gt;"
-                  moduleName = "4pictures1words"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aidar/Desktop/Storyboard/4pictures1words/4pictures1words/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "408">
-               </Location>
-            </Locations>
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "nextLevel(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A76EB112-515E-46F9-A08E-1913C29F05FA"
-            shouldBeEnabled = "Yes"
+            uuid = "F34FCBB4-A21D-48E1-BF07-9EC27DDF68AE"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "4pictures1words/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "levels"
             landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "A76EB112-515E-46F9-A08E-1913C29F05FA - 74369d2f789afff6"
+                  uuid = "F34FCBB4-A21D-48E1-BF07-9EC27DDF68AE - ee22320511b1a528"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "_pictures1words.ViewController.levels.getter : Swift.Array&lt;_pictures1words.ModelLevel&gt;"
+                  symbolName = "_pictures1words.ViewController.userDefaults.getter : __C.NSUserDefaults"
                   moduleName = "4pictures1words"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/aidar/Desktop/Storyboard/4pictures1words/4pictures1words/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "88">
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "48">
                </Location>
                <Location
-                  uuid = "A76EB112-515E-46F9-A08E-1913C29F05FA - 9f522c11b128a3c2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "_pictures1words.ViewController.levels.setter : Swift.Array&lt;_pictures1words.ModelLevel&gt;"
-                  moduleName = "4pictures1words"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aidar/Desktop/Storyboard/4pictures1words/4pictures1words/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "112">
-               </Location>
-               <Location
-                  uuid = "A76EB112-515E-46F9-A08E-1913C29F05FA - 57999576180a72f3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "_pictures1words.ViewController.levels.modify : Swift.Array&lt;_pictures1words.ModelLevel&gt;"
-                  moduleName = "4pictures1words"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aidar/Desktop/Storyboard/4pictures1words/4pictures1words/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "0">
-               </Location>
-               <Location
-                  uuid = "A76EB112-515E-46F9-A08E-1913C29F05FA - f67a07dded8187bc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "_pictures1words.ViewController.levels.modify : Swift.Array&lt;_pictures1words.ModelLevel&gt; with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "4pictures1words"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aidar/Desktop/Storyboard/4pictures1words/4pictures1words/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  uuid = "A76EB112-515E-46F9-A08E-1913C29F05FA - 669f461057c7f3b1"
+                  uuid = "F34FCBB4-A21D-48E1-BF07-9EC27DDF68AE - 669f461057c7f2d8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -306,12 +169,12 @@
                   urlString = "file:///Users/aidar/Desktop/Storyboard/4pictures1words/4pictures1words/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "432">
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "540">
                </Location>
                <Location
-                  uuid = "A76EB112-515E-46F9-A08E-1913C29F05FA - 4c260709d4df9db6"
+                  uuid = "F34FCBB4-A21D-48E1-BF07-9EC27DDF68AE - 4c260709d4df9cdf"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -321,9 +184,9 @@
                   urlString = "file:///Users/aidar/Desktop/Storyboard/4pictures1words/4pictures1words/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "408">
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "516">
                </Location>
             </Locations>
          </BreakpointContent>

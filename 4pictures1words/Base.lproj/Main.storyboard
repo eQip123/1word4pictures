@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gTa-Jc-84S">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Wp-Z5-IZw">
-                                <rect key="frame" x="57" y="94" width="300" height="300"/>
+                                <rect key="frame" x="57" y="158" width="300" height="300"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qPl-SY-U80">
                                         <rect key="frame" x="5" y="5" width="140" height="140"/>
@@ -64,7 +64,7 @@
                                 </constraints>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Esh-CA-UGC">
-                                <rect key="frame" x="10" y="414" width="394" height="150"/>
+                                <rect key="frame" x="10" y="478" width="394" height="150"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="ldh-Ub-eOO"/>
@@ -103,7 +103,7 @@
                                 </cells>
                             </collectionView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Khp-P3-G9S">
-                                <rect key="frame" x="10" y="589" width="394" height="150"/>
+                                <rect key="frame" x="10" y="653" width="394" height="150"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="7Bo-yf-evP"/>
@@ -143,7 +143,7 @@
                                 </cells>
                             </collectionView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dhr-ox-p32">
-                                <rect key="frame" x="129.5" y="774" width="155" height="31"/>
+                                <rect key="frame" x="129.5" y="838" width="155" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="155" id="Bkl-az-6RU"/>
                                     <constraint firstAttribute="height" constant="31" id="fji-ny-xts"/>
@@ -158,7 +158,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="5Wp-Z5-IZw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="5AP-6k-eFR"/>
+                            <constraint firstItem="5Wp-Z5-IZw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="5AP-6k-eFR"/>
                             <constraint firstItem="Dhr-ox-p32" firstAttribute="top" secondItem="5Wp-Z5-IZw" secondAttribute="bottom" constant="380" id="5Dr-Nd-Yne"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Khp-P3-G9S" secondAttribute="trailing" constant="10" id="EIM-Sg-d4O"/>
                             <constraint firstItem="Khp-P3-G9S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="FFs-za-89k"/>
@@ -170,6 +170,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Esh-CA-UGC" secondAttribute="trailing" constant="10" id="umS-Mz-m62"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="0o0-Bs-SDH"/>
                     <connections>
                         <outlet property="firstImage" destination="qPl-SY-U80" id="Qfx-w8-ddQ"/>
                         <outlet property="fourthImage" destination="UEq-nj-afK" id="zpd-EA-s5M"/>
@@ -180,6 +181,24 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="79.6875"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="xYH-3g-kvb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gTa-Jc-84S" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gZ7-e2-TLB">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="cJL-9e-FWg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i7a-Ib-MRn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="79.6875"/>
         </scene>

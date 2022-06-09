@@ -14,13 +14,25 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var letterCollectionView: UICollectionView!
     
+private lazy var saveButton: UIButton = {
+        let button = UIButton()
+        button.setTitle("Settings", for: .normal)
+    button.setImage(UIImage(systemName: "gear"), for: .normal)
+    button.addTarget(self, action: #selector(nextPage), for: .touchUpInside)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        return button
+    }()
+
     var levels: [ModelLevel] = [ModelLevel(firstImageM: UIImage(named: "water1"), secondImageM: UIImage(named: "water2"), thirdImageM: UIImage(named: "water3"), fourthImageM: UIImage(named: "water4"), correctAnswer: ["W", "A", "T", "E", "R"] , lettersM: ["W" , "N" , "Y" , "A" , "I" , "Q" , "R" , "E" , "L" , "T", "W" , "N" ,]),
         ModelLevel(firstImageM: UIImage(named: "job1"), secondImageM: UIImage(named: "job2"), thirdImageM: UIImage(named: "job3")!, fourthImageM: UIImage(named: "job4"), correctAnswer: ["J", "O", "B"] , lettersM: ["S", "A", "O", "J", "C", "B", "E", "P"]),
         ModelLevel(firstImageM: UIImage(named: "fruit1"), secondImageM: UIImage(named: "fruit2"), thirdImageM: UIImage(named: "fruit3"), fourthImageM: UIImage(named: "fruit4"), correctAnswer: ["F", "R", "U", "I", "T"] , lettersM: ["I", "K", "R", "Y", "U", "B", "D", "T", "F", "Q", "L"])]
+    
     var index = 0
     var word: [String] = []
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addSubview(saveButton)
+        setupAutoLayout()
         firstImage.image = levels[0].firstImageM
         secondImage.image = levels[0].secondImageM
         thirdImage.image = levels[0].thirdImageM
@@ -30,10 +42,20 @@ class ViewController: UIViewController {
         wordCollectionView.dataSource = self
         letterCollectionView.delegate = self
         letterCollectionView.dataSource = self
+    }
+    func setupAutoLayout () {
+        saveButton.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 0).isActive = true
+        saveButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 60).isActive = true
+        saveButton.heightAnchor.constraint(equalToConstant: 60).isActive = true
+        saveButton.widthAnchor.constraint(equalToConstant: 120).isActive = true
+        
         
 
+
     }
-    
+
+
+
     @IBAction func nextLevel(_ sender: UIButton) {
         if word == levels[index].correctAnswer {
         index += 1
@@ -45,6 +67,11 @@ class ViewController: UIViewController {
         }
         word.removeAll()
         wordCollectionView.reloadData()
+    }
+    @objc func nextPage() {
+        print("click")
+        let secondVc = SecondPage()
+        navigationController?.pushViewController(secondVc, animated: true)
     }
 }
 extension ViewController: UICollectionViewDataSource {
@@ -89,4 +116,6 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
                 print("guessed wrong!")
             }
         }
+
     }
+
